@@ -1,2 +1,1 @@
-# PrepCourse-Henry
-este es un modo de prueba del modulo 2 de henry
+este proyecto es una prueba de como crear un repositorio y clonarlo de githug a mi escritorio local
