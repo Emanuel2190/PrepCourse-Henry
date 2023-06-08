@@ -1,0 +1,68 @@
+git bash
+
+COMANDO es una instruccion determionada que le damos al sistema operativo
+
+ej.
+pwd = imprimir el directorio, ruta o carpetas sobre donde estamos trabajo 
+ls = imprime un listado de los archivos o carpetas del directorio de cual estemos trabajando
+
+(es sensible a mayusculas por lo que no reconoce)
+
+las OPCIONES modifican el comando agregando mayor informacion
+ej.
+ls -l = muestra mas informacion de la lista
+
+mkdir carpeta1 (carpeta1 es el ARGUMENTO del comando) = crea carpeta con el nombre que le ponemos
+
+
+comando,opcion,argumento:
+mkdir -v carpeta2 = -v nos indica que la carpeta fue creada con exito
+mkdir -v "carpeta 3" = al poner comillas crea el nombre de la carpeta con espacios dentro
+
+cd carpeta2 = cd(change directory/cambiar de directorio o carpeta) ingresamos a carpeta2
+
+cd .. = volvemos atras un directorio
+
+clear = limpia la terminal
+
+touch archivo4.js = crea un archivo vacio, es importartante poner el nombre y la extension del archivo que queremos crear
+
+rm archivo4.js = remove/elimina el archivo indicado
+
+rm -r carpeta2 = elimina una carpeta o directorio indicado
+
+help = nos brinda una larga lista de comandos con sus opciones y argumentos
+
+ls --help = no nrinda ayuda del comando especifico escrito al principio "ls"
+
+code 'Mi primer repositorio.txt' = abre el visual directamente en el repositorio mencionado
+
+ls -a = se ven las carpetas ocultas
+
+commit = es un captura instantanea de los cambios preparados en ese momento, por cualquier cosa volver al proyecto en ese estado
+
+git add 'Mi primer repositorio.txt' = sube de a uno al commit
+
+git add . = sube todos los archivos al siguiente commit
+
+git commit -m 'algun mensaje del commit' = guarda una captura de lo actual
+
+git log = nos dice que commit tenemos guardados
+
+git clone https://github.com/Emanuel2190/PrepCourse-Henry.git = descargara una carpeta en nuestro escritorio de este repositorio sacado de github
+ 
+code . = para que nuestro visual studio se abra y trabajemos sobre nuestro repositorio/ recordar esta sobre la carpeta con cd '.....'
+
+git add "README.md" = para agregar 
+
+git commit "comit de pureba" = para guardar un comentario de lo que hicimos en el commit
+
+git push origin main = para guardar los cambios en la pagina de github
+
+
+
+
+
+
+
+
